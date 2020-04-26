@@ -1,9 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { IProduct } from '../product';
-import { ProductService } from '../product.service';
+
+import { IProduct } from './product';
+import { ProductService } from './product.service';
 
 @Component({
-  selector: 'app-product-list',
+  selector: 'pm-products',
   templateUrl: './product-list.component.html',
   styleUrls: ['./product-list.component.css']
 })
@@ -42,7 +43,6 @@ export class ProductListComponent implements OnInit {
     this.showImage = !this.showImage;
   }
 
-
   ngOnInit(): void {
     this.productService.getProducts().subscribe({
       next: products => {
@@ -52,5 +52,4 @@ export class ProductListComponent implements OnInit {
       error: err => this.errorMessage = err
     });
   }
-
 }
