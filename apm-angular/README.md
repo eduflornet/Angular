@@ -1,6 +1,13 @@
 # ApmAngular
 
 https://blogs.msmvps.com/deborahk/angular-2-getting-started-problem-solver/
+https://docs.google.com/document/d/1MZd2D2zeNusKAwl_NYZbWDLzvUlvYicKfYMpFnlOxSs/edit?usp=sharing
+https://developer.mozilla.org/en-US/docs/Web/Events
+https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+API MOCK FAKE
+https://jsonplaceholder.typicode.com/
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.4.
 

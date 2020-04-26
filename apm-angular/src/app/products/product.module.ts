@@ -10,7 +10,8 @@ import { SharedModule } from '../shared/shared.module';
   declarations: [
     ProductListComponent,
     ProductDetailComponent,
-    ConvertToSpacesPipe,
+    ConvertToSpacesPipe
+
   ],
   imports: [
     RouterModule.forChild([
