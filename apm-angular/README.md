@@ -1,9 +1,14 @@
-# ApmAngular
+# Links
 
 https://blogs.msmvps.com/deborahk/angular-2-getting-started-problem-solver/
+
 https://docs.google.com/document/d/1MZd2D2zeNusKAwl_NYZbWDLzvUlvYicKfYMpFnlOxSs/edit?usp=sharing
+
 https://developer.mozilla.org/en-US/docs/Web/Events
+
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
+
+https://developer.mozilla.org/es/docs/Web/API/HTMLInputElement
 
 API MOCK FAKE
 https://jsonplaceholder.typicode.com/
