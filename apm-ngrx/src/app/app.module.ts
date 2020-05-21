@@ -16,9 +16,12 @@ import { PageNotFoundComponent } from './home/page-not-found.component';
 
 /* Feature Modules */
 import { UserModule } from './user/user.module';
+
+/* NgRx */
 import { StoreModule } from '@ngrx/store';
-import { environment } from 'src/environments/environment';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
+import { environment } from '../environments/environment';
+import { EffectsModule } from '@ngrx/effects';
 
 @NgModule({
   imports: [
@@ -28,11 +31,21 @@ import { StoreDevtoolsModule } from '@ngrx/store-devtools';
     UserModule,
     AppRoutingModule,
     StoreModule.forRoot({}),
+    // StoreModule.forRoot({},
+    //   {
+    //     runtimeChecks: {
+    //       strictStateImmutability: true,
+    //       strictActionImmutability: true,
+    //       strictStateSerializability: true,
+    //       strictActionSerializability: true
+    //     }
+    //   }),
     StoreDevtoolsModule.instrument({
       name: 'APM Demo App DevTools',
       maxAge: 25,
       logOnly: environment.production,
-    })
+    }),
+    EffectsModule.forRoot([])
   ],
   declarations: [
     AppComponent,
